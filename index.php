@@ -8,7 +8,7 @@
 		case "admin_subject":
 			include("controllers/admin_subject.php");
 		break;
-		// Авторизация и профиль
+		// Авторизация и профиль 123456
 		case "login":
 			include("views/auth/login.php");
 		break;
