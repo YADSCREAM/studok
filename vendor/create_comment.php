@@ -10,6 +10,7 @@ require_once '../config/connect.php';
 
 /*
  * Создаем переменные со значениями, которые были получены с $_POST
+ abs
  */
 
 $id = $_POST['id'];
