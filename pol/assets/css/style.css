@@ -1,0 +1,211 @@
+ header{
+			position: absolute;
+			width: 100%;
+			height: 85px;
+			background-color: #1C7C09;
+			top: 0;
+			left: 0;
+		}
+		footer{
+			position: fixed;
+			width: 100%;
+			height: 6%;
+			background-color: #1C7C09;
+			left: 0;
+			bottom: 0;
+		}
+		#main{
+			position: absolute;
+			width: 100%;
+			height: 90%;
+			background-color: #95D738;
+			font-size: 100%;
+			left: 0;
+			top: 82px;
+		}
+		p{
+			display: inline;
+			font-family: sans-serif;
+			font-style: Gill Sans;
+			font-size: 100%;
+		}
+ 
+#img1{
+	max-height: 5vh;
+	max-width: 2%;
+	margin-left: 1%;
+}
+#tudok{
+	font-family: Ovo;
+	font-weight: Regular;
+	font-size: 100%;
+}
+#glav, #about, #kont{
+	margin-left: 5%;
+}
+#poisk{
+	margin-left: 30%;
+	width: 10%;
+	height: 3vh;
+}
+#img2{
+	font-size: 100%;
+	max-width: 3%;
+}
+#vhod, #about2, #kont2{
+	margin-left: 10%;
+}
+#img3{
+	font-size: 100%;
+	max-width: 4%;
+}
+#glav2{
+	margin-left: 5%;
+	margin-top: 2vh;
+}
+#img4{
+	font-size: 15px;
+	max-width: 5%;
+	margin-left: 10%;
+}
+#mail{
+	margin-left: 15%;
+}
+em{
+	font-family: sans-serif;
+	font-style: Gill Sans;
+	font-size: 15px;
+}
+h1{
+	margin-top: 2%;
+	text-align: center;
+	font-family: bookman old style;
+}
+table{
+	margin-top: 1%;
+	margin-left: 1%;
+	border-spacing:5px 10px;
+	 
+	
+}
+.texter{
+	width:50%;
+	padding-left:10%;
+	
+	
+}
+td{
+	 
+	border-radius: 25px;
+	padding: 3px;
+	font-family: bookman old style;
+	font-weight: bold;
+	text-align: center;
+	filter: brightness(78%);
+}
+#td1, #td8, #td9, #td16{
+	background-color: #23C9ED;
+	width:20%;
+	
+}
+#td2, #td7, #td10, #td15{
+	background-color: #ffffff;
+	width:20%;
+}
+#td3, #td6, #td11, #td14{
+	background-color: #ED232F;
+	width:20%;
+}
+#td4, #td5, #td12, #td13{
+	background-color: #234FED;
+	width:10%;
+}
+.lele {
+	margin-left:5%;
+	border: 1px solid grey;
+	width:5px;
+	height:30px;
+}
+#kontdanie{
+	padding-left:10px;
+}
+th, td {
+	border: 1px solid grey;
+}
+#img5, #img6, #img7{
+	max-height: 5vh;
+	max-width: 5%;
+	margin-left: 5%;
+}
+#contmail, #phone{
+	margin-left: 15%;
+	font-family: sans-serif;
+	font-style: Gill Sans;
+	font-size: 15px;
+}
+#inst1, #inst2, #inst3, #inst4{
+	margin-left: 15%;
+	font-family: sans-serif;
+	font-style: Gill Sans;
+	font-size: 15px;
+}
+
+.article{
+    margin-top:50px;
+	
+}
+.admin-table{
+    width:100%;
+}
+
+/*для мобильных устройств*/
+@media screen and (max-width: 640px) 
+{
+	body{
+		background:white;
+		
+	}
+	aside {
+		width:90%;
+	}
+	article {
+		width:90%;
+	}
+	#container {
+		font-size:120%;
+	}
+	#razdeli_opisanie {
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	body 
+	{
+		background:white;
+		font-size:50%;
+		
+	}
+}
+
+@media screen and (min-width: 1280px) 
+{
+	body
+	{
+		background:white;
+		font-size: 100%;
+	}
+ 
+}
+
+body {
+  top: 0 !important;
+}
+.skiptranslate {
+  display: none;
+  height: 0;
+}
+.language__img {
+  cursor: pointer;
+}
