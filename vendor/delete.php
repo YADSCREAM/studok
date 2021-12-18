@@ -10,6 +10,7 @@ require_once '../config/connect.php';
 
 /*
  * Получаем ID продукта из адресной строки
+ abc
  */
 
 $id = $_GET['id'];
