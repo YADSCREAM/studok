@@ -103,7 +103,7 @@
 
 /**
  * @param $mysqli
- * @return ddmixed abs
+ * @return ddmixffffed abs
  */
 function getProductNames($mysqli)
 {
